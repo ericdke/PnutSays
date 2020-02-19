@@ -24,7 +24,7 @@ Add the `-p` option to generate the appropriate tag.
 
 #### Special characters
 
-When typing in the terminal, special characters must be escaped: they have to be preceded by an antislash "\".
+When typing in the terminal, special characters must be escaped: they have to be preceded by an antislash "\\".
 
     pnutsays "Welcome to a world of \"moo\", this is so awesome\!"
     
