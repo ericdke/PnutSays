@@ -5,7 +5,7 @@ let arguments = ProcessInfo.processInfo.arguments.dropFirst()
 let parser = ArgumentParser(usage: "<options> \"some text\"", overview: "A command-line tool similar to cowsay, dedicated to pnut.io")
 let messageArgument = parser.add(positional: "\"some text\"", kind: String.self, optional: false, usage: "The text that will be included in the speech bubble")
 let pnutprinterArgument = parser.add(option: "--pnutprinter", shortName: "-p", kind: Bool.self, usage: "Adds a tag which triggers pnut's printer")
-let errorMessage = "You need to pass \"some text\" to generate the message. Use --help to list available arguments."
+let errrorMessage = "You need to pass \"some text\" to generate the message. Use --help to list arguments and options."
 
 do {
     let parsedArguments = try parser.parse(Array(arguments))
@@ -17,8 +17,8 @@ do {
             print(ps.say())
         }
     } else {
-        print(errorMessage)
+        print(errrorMessage)
     }
 } catch {
-    print("An error occured: \(error).\n\(errorMessage)")
+    print("An error occured!\n`\(error)`.\n\(errrorMessage)")
 }
