@@ -40,7 +40,7 @@ Words longer than the authorized limit will be wrapped to the next line.
 
 #### ASCII tag
 
-Some pnut clients, like [Apero](https://itunes.apple.com/us/app/apero/id1219902108?l=fr&ls=1&mt=12), can display fixed-width fonts if you add the tag "#ascii" in the post. This may help display the cow properly.
+Some pnut clients, like [Apero](https://itunes.apple.com/us/app/apero/id1219902108?l=fr&ls=1&mt=12), can display fixed-width fonts if you add the tag "#ascii" in the post. This may help display the cow properly. However, Apero automatically switches to fixed-width font for posts that include the pnutprinter tag. YMMV
 
 #### Copy to clipboard
 
