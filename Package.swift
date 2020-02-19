@@ -12,7 +12,6 @@ let package = Package(
         .package(url: "https://github.com/apple/swift-package-manager.git", from: "0.1.0")
     ],
     targets: [
-        .target(name: "PnutSays", dependencies: ["SPMUtility"]),
-        .testTarget(name: "PnutSaysTests", dependencies: ["PnutSays"]),
+        .target(name: "PnutSays", dependencies: ["SPMUtility"])
     ]
 )
