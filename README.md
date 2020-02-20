@@ -76,7 +76,3 @@ Then copy the executable to a path where the terminal can find it:
 ## Licence
 
 The content of this repository is licenced under the MIT licence.
-
-## TODO
-
-Check the text length after generating the cow. It should not go beyond 256 chars for posts or 2048 chars for messages.
